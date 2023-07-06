@@ -1,0 +1,17 @@
+# DO NOT include azure-functions-worker in this file
+# The Python Worker is managed by Azure Functions platform
+# Manually managing azure-functions-worker may cause unexpected issues
+
+SpeechRecognition
+pocketsphinx
+azure-functions
+google-cloud-speech
+soundfile
+openai
+numpy
+torch
+numba
+tqdm
+more-itertools
+tiktoken==0.3.3
+openai-whisper
